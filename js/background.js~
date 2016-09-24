@@ -1,0 +1,24 @@
+chrome.app.runtime.onLaunched.addListener(function() {
+  chrome.app.window.create('window.html', {
+      id:'mericblog',
+    frame:'none',
+    resizable:false,
+      'outerBounds': {
+      'minWidth': 370,
+      'minHeight': 600,
+      'maxWidth':370,
+      'maxHeight':600
+
+    }
+    
+  });
+
+
+
+});
+
+      chrome.app.runtime.onEmbedRequested.addListener(function(request) {
+        // Allows the embedder to embed foo.html.
+        request.allow("window.html");
+      });
+      

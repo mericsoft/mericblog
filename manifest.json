@@ -1,0 +1,13 @@
+{
+  "name": "mericblog",
+  "description": "meriç eğitim blog servisi uygulaması",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["js/background.js"]
+    }
+  },
+    "icons": { "16": "mericlogosb.png", "128": "mericlogosb.png" },
+    "permissions":["browser","webview","appview","http://mericegitim.com/blog/*","http://*/*","<all_urls>"]
+ }

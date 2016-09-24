@@ -1,0 +1,179 @@
+*,body,html
+{
+	margin: 0;
+	padding: 0;
+	outline: none;
+} 
+
+body,html
+{
+	width: 370px;
+	height: 600px;
+	font-size: 12px;
+	font-weight: 200;
+	color: white;	
+
+}
+
+/*scroll bar renkleri */
+*::-webkit-scrollbar
+{
+    background-color:rgb(50,50,60);
+    border-color:black;
+}
+*::-webkit-scrollbar-track-piece
+{
+    background-color:rgb(50,60,60);
+}
+
+#ust{
+	width: 100%;
+	height: 32%;
+	position: relative;
+	top:0px;
+	left: 0px;
+	background-color:rgb(70,70,80);
+	-webkit-app-region:drag;  
+
+}
+
+#ust #logo{
+	width:50%;
+	height: 50%;
+	position: absolute;
+	top:25%;
+	left: 25%;
+	z-index: 10;
+
+
+}
+
+#ust #kapa,#ust #info
+{
+	position: absolute;
+	top:12px;
+	color: white;
+	cursor: pointer;
+	-webkit-app-region:no-drag;
+
+}
+
+#kapa:hover, #info:hover
+{
+	font-weight: 600;
+
+}
+
+#kapa
+{
+	right: 12px;
+}
+
+#info
+{
+	right: 24px;	
+
+}
+
+#alt{
+	width: 100%;
+	height: 68%;
+	position: relative;
+	overflow: auto;
+	background-color: rgb(100,100,110);
+	
+}
+
+#alt .liste
+{
+	width:90%;
+	height:12px; 
+	margin-top: 12px;
+	padding: 12px 2% 12px 2%;
+	background-color: rgb(60,60,70);
+	position: relative;
+	left: 3%;
+	cursor: pointer;
+
+}
+.liste:hover
+{
+	background-color: rgb(70,70,80);
+}
+
+#biz
+{
+	width: auto;
+	height: 12px;
+	padding: 24px;
+	position:fixed;
+	top: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	left:50%;
+	background-color: rgb(30,30,40);
+}
+#biz #bizkapa
+{
+	position: absolute;
+	top:10px;
+	right: 10px;
+	cursor: pointer;
+	z-index: 30;
+
+}
+	
+#haberoku
+{
+	display: none;
+	width: 90%;
+	height:90%;
+	padding: 2%;
+	position: fixed;
+	top:3%;
+	left: 3%;
+	z-index: 20;
+	overflow: auto;
+	background-color: rgb(70,70,80);
+	border:1px solid rgb(30,40,40);
+	-webkit-app-region:no-drag;
+	
+	
+}
+
+
+
+
+#haberkapa
+{
+	position: fixed;
+	top:5%;
+	right: 10%;
+	cursor: pointer;
+	z-index: 60;
+	-webkit-app-region:no-drag;
+}	
+
+#mesaj
+{
+	width: auto;
+	height: 12px;
+	padding: 12px;
+	background-color: rgb(50,50,60);
+	position: fixed;
+	top:50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	z-index: 50;
+	cursor: pointer;
+}
+
+	
+
+
+.dene
+{
+	
+	background-color: yellow;
+	color: green;
+
+}
