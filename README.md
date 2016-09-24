@@ -1,7 +1,7 @@
 # mericblog
-meriç eiğitim blog sitesine ait chrome apps uygulaması
+meriç eğitim blog sitesine ait chrome apps uygulaması
 ----
-bu uygulma meriç soft tarafından profesyönel bir gaye gütmeden hazırlanmıştır.
+bu uygulma meriç soft tarafından profesyonel bir gaye gütmeden hazırlanmıştır.
 Temel kaynak kodları açıktır.
 
 Bir blog sitesinden (http://mericegitim.com/blog) blog yazılarını alıp gösteren basit bir örnek uygulamadır. 
