@@ -1,6 +1,6 @@
 # mericblog
-this apps a simple blog feed  chrome apps example  based php and ajax
-the feeds is coming from blog.meriecegitim.com
+this app is a simple blog feed  chrome apps example  based php and ajax
+the feeds is coming from blog.mericegitim.com
 if you don't have any experience on chrome apps, please fallow the steps below after downloading or cloning the package.
 
 1) open a new tab and write chrome://flags 
